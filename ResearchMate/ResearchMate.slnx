@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ResearchMate.vcxproj" />
+  <Project Path="ResearchMate.vcxproj" Id="9e338cca-02b3-43e9-b972-445e62e63d45" />
 </Solution>
