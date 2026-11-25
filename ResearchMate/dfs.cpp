@@ -1,20 +1,48 @@
+//
 //#include <iostream>
 //using namespace std;
 //
-//const int SIZE = 5;
+//class DFS {
+//    bool visited[5];
 //
-//void DFS(int graph[SIZE][SIZE], bool visited[SIZE], int node)
-//{
-//    cout << char(node + 'A') << " ";
-//
-//    visited[node] = true;// changes the current node as visited
-//
-//    for (int i = 0; i < SIZE; i++)
-//    {
-//        // recursive call to visit connected nodes that have not been visited yet
-//        if (graph[node][i] == 1 && visited[i] == false)
-//        {
-//            DFS(graph, visited, i);
+//public:
+//    DFS() {
+//        for (int i = 0; i < 5; i++) {
+//            visited[i] = false;
 //        }
 //    }
-//}
+//
+//    void search(int adj[5][5], int node) {
+//        visited[node] = true;
+//
+//        cout << node << " ";
+//
+//        // Explore every unvisited neighbor of the current node
+//        for (int i = 0; i < 5; i++) {
+//            if (adj[node][i] == 1 && visited[i] == false) {
+//                search(adj, i);
+//            }
+//        }
+//    }
+//
+//    void resetVisited() {
+//        for (int i = 0; i < 5; i++) {
+//            visited[i] = false;
+//        }
+//    }
+//
+//    void searchAll(int adj[5][5]) {
+//        resetVisited();
+//
+//        cout << "DFS Research Paper Exploration: ";
+//
+//        // Start DFS from every unvisited vertex
+//        for (int i = 0; i < 5; i++) {
+//            if (visited[i] == false) {
+//                search(adj, i);
+//            }
+//        }
+//
+//        cout << endl;
+//    }
+//};

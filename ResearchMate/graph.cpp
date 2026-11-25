@@ -6,6 +6,13 @@
 //    int adj[5][5];
 //
 //public:
+//    void getAdjacencyMatrix(int matrix[5][5]) {
+//        for (int i = 0; i < 5; i++) {
+//            for (int j = 0; j < 5; j++) {
+//                matrix[i][j] = adj[i][j];
+//            }
+//        }
+//    }
 //    Graph() {
 //        for (int i = 0; i < 5; i++)
 //            for (int j = 0; j < 5; j++)
