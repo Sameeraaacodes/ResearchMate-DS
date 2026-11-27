@@ -143,6 +143,7 @@
     <ClCompile Include="dfs.cpp" />
     <ClCompile Include="graph.cpp" />
     <ClCompile Include="hashtable.cpp" />
+    <ClCompile Include="heap.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="bfs.cpp" />
   </ItemGroup>
